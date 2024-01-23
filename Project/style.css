@@ -1,0 +1,70 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1500px;
+  margin: auto; 
+}
+header {
+  
+  background-color: yellow;
+  text-align: center;
+
+}
+header image {
+  width: 1000px;
+  height: 100px;
+}
+/* .......nav..... */
+nav{
+  background-color: black;
+}
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav ul li, a{
+  color: white;
+  font-size: 12px;
+}
+nav ul li:nth-child(2) a {
+  color: blue;
+}
+
+nav ul li:nth-child(2) i {
+  color: blue;
+  font-size: 15px;
+  margin-left: 6px;
+}
+nav ul li:nth-child(3){
+  position: relative;
+}
+nav ul li:nth-child(3) input {
+  height: 30px;
+  width: 100%;
+  border-radius: 5px;
+  border: 15px;
+  color: aliceblue;
+  padding-left: 6px;
+  outline: none;
+}
+nav ul li:nth-child(3) i {
+  position: absolute;
+  font-size: 15px;
+  right: 12px;
+  color: #333;
+  line-height: 30px;
+  cursor: pointer;
+}
