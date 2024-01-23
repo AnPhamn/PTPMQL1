@@ -3,7 +3,7 @@
   /* margin: khoảng cách giữa các phần tử
      padding: khoảng cách nội dung
      box-sizing: kích thước tông
-     font-family: tất cả các phần tử văn bản trên trang
+     font-family: phông chữ
   */
   margin: 0%;
   padding: 0%;
@@ -27,4 +27,19 @@ h1 {
 p {
   font-family: verdana;
   font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1500px;
+    margin: auto; 
+}
+    
+image {
+    width: 1000px;
+    height: 1000px;
+    float: center;
 }

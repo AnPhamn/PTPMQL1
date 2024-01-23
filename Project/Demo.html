@@ -11,11 +11,20 @@
 
 <!-- style: định dạng phần thân -->
 <body style="background-color:powderblue;">
-    <div>
+
+    
+    
       <!-- h1-h6: xác định một tiêu đề lớn
           h1: là tiêu đề quan trọng nhất
        -->
-        <h1 style="background-color:powderblue;"id="first-heading">ABCD</h1>
+       <!-- thẻ img: dùng để gắn ảnh
+         -->
+         <img src="img/banner.jpg" alt="demo">
+
+        <h1 style="text-align: center;">ABCD</h1>
+  
+  
+      <p style="background-image: url('img/banner.jpg');"></p>
 
         <!-- <p>: xác định một đoạn văn
              hr: ngắt dòng 
@@ -23,6 +32,7 @@
              blockquote: thụt lề
              <q>: xác định 1 đoạn văn bản ngắn
              <abbr>: đánh dấu các chữ viết tắt
+             <id>: số trang muốn đến, href link trang
          -->
          <p style="background-color:tomato;">tử xác định một đoạn văn</p>
          <blockquote cite="http://www.worldwildlife.org/who/index.html">
@@ -30,10 +40,13 @@
           </blockquote>
 
           <p>WWF's goal is to: <q>Build a future where people live in harmony with nature.</q></p>
-         <hr>
+         
          <p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p>
 
-         <h2>This is heading 2</h2>
+         <h2 id="3">This is heading 2</h2>
+         <a href=https://fontawesome.com/search?q=arow&p=3&o=r>Jump to Chapter 3</a>
+         
+
          <p>This is some other text.</p>
          <hr>
          <pre>
@@ -51,11 +64,13 @@
           <hr>
 <!-- font-size: kích thước văn bản -->
           <h4 style="font-size:300%;">This is a heading</h4>
-          <p style="font-size:160%;">This is a paragraph.</p><hr>
+          <p style="font-size:160%;">This is a paragraph.</p>
 <!--text-align: chỉnh văn bản theo chiều ngang  -->
           <h5 style="text-align:center;">Centered Heading</h5>
-          <p style="text-align:center;">Centered paragraph.</p><hr>
-
+          <p style="text-align:center;">Centered paragraph.</p>
+ 
+   
+    
           <!-- <b>- Chữ in đậm
             <strong>  - Văn bản quan trọng
             <i>       - Văn bản in nghiêng
@@ -68,23 +83,38 @@
             <sup>     - Văn bản siêu chữ
            -->
            <b>This text is bold</b> <hr>
-           <strong>This text is important!</strong><hr>
-           <i>This text is italic</i><hr>
-           <em>This text is emphasized</em><hr>
-           <small>This is some smaller text.</small><hr>
-           <p>Do not forget to buy <mark>milk</mark> today.</p><hr>
-           <p>My favorite color is <del>blue</del> red.</p><hr>
-           <p>My favorite color is <del>blue</del> <ins>red</ins>.</p><hr>
-           <p>This is <sub>subscripted</sub> text.</p><hr>
-           <p>This is <sup>superscripted</sup> text.</p><hr>
+           <strong>This text is important!</strong>
+           <i>This text is italic</i>
+           <em>This text is emphasized</em>
+           <small>This is some smaller text.</small>
+           <p>Do not forget to buy <mark>milk</mark> today.</p>
+           <p>My favorite color is <del>blue</del> red.</p>
+           <p>My favorite color is <del>blue</del> <ins>red</ins>.</p>
+           <p>This is <sub>subscripted</sub> text.</p>
+           <p>This is <sup>superscripted</sup> text.</p>
+
+           <!-- button: nút bấm -->
+           <button onclick="document.location='https://www.w3schools.com'">W3school</button>
 
          <!-- thẻ a: dùng để gắn các đường liên kết -->
          <a href="https://www.w3schools.com">Ấn vào đây</a>
 
          <!-- thẻ img: dùng để gắn ảnh
          -->
-         <img src="img/banner.jpg" alt="demo" width="500" height="500">
+         <img src="img/banner.jpg" alt="demo" style="float:center;width: 500pxpx; height:450px;">
 
-    </div>
+     
+   
+    <img src="img/workplace.jpg" alt="Workplace" usemap="#workmap">
+
+    <map name="workmap">
+      <area shape="rect" coords="34,44,270,350" alt="Computer" href="https://www.w3schools.com/html/computer.htm">
+      <area shape="rect" coords="290,172,333,250" alt="Phone" href="https://www.w3schools.com/html/coffee.htm">
+      <area shape="circle" coords="337,300,44" alt="Coffee" href="">
+    </map>
+      <footer>
+        <!-- Đây là phần footer, chứa thông tin liên hệ và liên kết xã hội -->
+        <p>&copy; 2023 Tên trang web của bạn. All rights reserved.</p>
+    </footer>
 </body>
 </html>
