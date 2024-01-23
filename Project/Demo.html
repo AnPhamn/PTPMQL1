@@ -2,22 +2,88 @@
 <html lang="en">
 <!-- head: tử chứa thông tin meta về trang HTML -->
 <head> 
+  <!-- link: liên kết các -->
+  <link rel="stylesheet" href="style.css">
   <!-- title: tử chỉ định tiêu đề cho trang  -->
     <title>PTPMQL</title>
 </head>
 <!-- body: xác định nội dung của tài liệu và là nơi chứa tất cả nội dung hiển thị -->
-<body>
+
+<!-- style: định dạng phần thân -->
+<body style="background-color:powderblue;">
     <div>
       <!-- h1-h6: xác định một tiêu đề lớn
           h1: là tiêu đề quan trọng nhất
        -->
-        <h1 id="first-heading">ABCD</h1>
+        <h1 style="background-color:powderblue;"id="first-heading">ABCD</h1>
 
-        <!-- <p>: xác định một đoạn văn -->
-         <p>tử xác định một đoạn văn</p>
+        <!-- <p>: xác định một đoạn văn
+             hr: ngắt dòng 
+             pre: văn bản được định sẵn
+             blockquote: thụt lề
+             <q>: xác định 1 đoạn văn bản ngắn
+             <abbr>: đánh dấu các chữ viết tắt
+         -->
+         <p style="background-color:tomato;">tử xác định một đoạn văn</p>
+         <blockquote cite="http://www.worldwildlife.org/who/index.html">
+          For 60 years, WWF has worked to help people and nature thrive. As the world's leading conservation organization, WWF works in nearly 100 countries. At every level, we collaborate with people around the world to develop and deliver innovative solutions that protect communities, wildlife, and the places in which they live.
+          </blockquote>
+
+          <p>WWF's goal is to: <q>Build a future where people live in harmony with nature.</q></p>
+         <hr>
+         <p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p>
+
+         <h2>This is heading 2</h2>
+         <p>This is some other text.</p>
+         <hr>
+         <pre>
+            My Bonnie lies over the ocean.
+
+            My Bonnie lies over the sea.
+
+            My Bonnie lies over the ocean.
+
+            Oh, bring back my Bonnie to me.
+          </pre>
+<!-- font-family: phông chữ -->
+          <h3 style="font-family:verdana;">This is a heading</h3>
+          <p style="font-family:courier;">This is a paragraph.</p>
+          <hr>
+<!-- font-size: kích thước văn bản -->
+          <h4 style="font-size:300%;">This is a heading</h4>
+          <p style="font-size:160%;">This is a paragraph.</p><hr>
+<!--text-align: chỉnh văn bản theo chiều ngang  -->
+          <h5 style="text-align:center;">Centered Heading</h5>
+          <p style="text-align:center;">Centered paragraph.</p><hr>
+
+          <!-- <b>- Chữ in đậm
+            <strong>  - Văn bản quan trọng
+            <i>       - Văn bản in nghiêng
+            <em>      - Đoạn văn bản được nhấn mạnh
+            <mark>    - Văn bản được đánh dấu
+            <small>   - Văn bản nhỏ hơn
+            <del>     - Văn bản đã xóa
+            <ins>     - Đã chèn văn bản
+            <sub>     - Văn bản đăng ký
+            <sup>     - Văn bản siêu chữ
+           -->
+           <b>This text is bold</b> <hr>
+           <strong>This text is important!</strong><hr>
+           <i>This text is italic</i><hr>
+           <em>This text is emphasized</em><hr>
+           <small>This is some smaller text.</small><hr>
+           <p>Do not forget to buy <mark>milk</mark> today.</p><hr>
+           <p>My favorite color is <del>blue</del> red.</p><hr>
+           <p>My favorite color is <del>blue</del> <ins>red</ins>.</p><hr>
+           <p>This is <sub>subscripted</sub> text.</p><hr>
+           <p>This is <sup>superscripted</sup> text.</p><hr>
 
          <!-- thẻ a: dùng để gắn các đường liên kết -->
          <a href="https://www.w3schools.com">Ấn vào đây</a>
+
+         <!-- thẻ img: dùng để gắn ảnh
+         -->
+         <img src="img/banner.jpg" alt="demo" width="500" height="500">
 
     </div>
 </body>
